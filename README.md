@@ -2,7 +2,7 @@
 
 ![Chatvid Preview](assets/chatvid.jpg)
 
-![Live Preview](https://chatvid-official.000webhostapp.com)
+**Live Preview:** [Click here to view the live website](https://chatvid-official.000webhostapp.com/)
 
 ## Table of Contents
 - [About](#about)
