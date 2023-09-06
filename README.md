@@ -2,6 +2,8 @@
 
 ![Chatvid Preview](assets/chatvid.jpg)
 
+![Live Preview](https://chatvid-official.000webhostapp.com)
+
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
