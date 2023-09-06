@@ -1,6 +1,6 @@
 # Chatvid - Real-time Chat Application
 
-![Chatvid Preview](assets/screenshot.png)
+![Chatvid Preview](assets/chatvid.jpg)
 
 ## Table of Contents
 - [About](#about)
