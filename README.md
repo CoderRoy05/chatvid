@@ -12,7 +12,7 @@
 - [License](#license)
 
 ## About
-Chatvid is a real-time chat application designed for seamless communication between users. It provides a user-friendly interface for instant messaging and supports user authentication and database storage. stay up with me, yeah right, meat pie
+Chatvid is a real-time chat application designed for seamless communication between users. It provides a user-friendly interface for instant messaging and supports user authentication and database storage. stay up with me, yeah right
 
 ## Features
 - Real-time chat with multiple users landing page
