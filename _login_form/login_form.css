@@ -1,0 +1,255 @@
+/* ROBOTO FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* POPPINS FONT */
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-box{
+    position: relative;
+    width: 480px;
+    /* height: 500px; */
+    padding: 10px 30px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    border-radius: 10px;
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+.login-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.login-header header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.login-header p{
+    color: #555;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+.input-box label{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #555;
+    transition: .15s ease-in-out;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+}
+.input-box .input-field{
+    font-size: 1em;
+    color: #333;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+.input-box input[type="password"]{
+    margin-bottom: 25px;
+}
+.input-box .input-field:focus{
+    border: 2px solid #8749F2;
+}
+.input-field:focus ~ label, .input-field:valid ~ label{
+    top: -8px;
+    left: 12px;
+    font-size: 12px;
+    color: #7931F5;
+    background: #FFF;
+    padding: 0 5px;
+}
+.input-field:valid ~ label{
+    color: #555;
+}
+
+            /* `WwwW` */
+select{
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eeeeeec3;
+    border-radius: 5px;
+}
+.selection{
+    color: #555;
+    padding: 5px;
+}
+        /* 2 */
+.bottom{
+    padding-left: 80px;
+}
+
+        /* WwwW */
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+#check{
+    margin-right: 10px;
+}
+section .forgot-link{
+    font-weight: 500;
+    text-decoration: none;
+    color: #7931F5;
+}
+.input-submit{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    background: #7931F5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.middle-text{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+}
+.or-text{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    color: #777;
+    padding: 10px;
+}
+hr{
+    border: 1px solid #ddd;
+}
+.social-sign-in{
+    display: flex;
+    gap: 15px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input-submit:hover{
+    opacity: 0.9;
+}
+.bottom p{
+    font-size: 14px;
+    color: #333;
+}
+.bottom p>a{
+    text-decoration: none;
+    color: #7931F5;
+}
+option{
+    color: #333;
+}
+select{
+    color: #333;
+}
+.eye-area{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.eye-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+i{
+    position: absolute;
+    color: #444444;
+    cursor: pointer;
+    padding: 4px;
+    padding-right: 6px;
+    background-color: white;
+}
+#eye,#eye-2{
+    opacity: 1;
+}
+#eye-slash,#eye-slash-2{
+    opacity: 0;
+}
+
+.error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+        /* MEDIA qUERIES */
+
+@media screen and (max-width: 429px) {
+    .login-box{
+        width: 400px;
+    }
+    select{
+        width: 340px;
+    }
+    .bottom{
+        padding-left: 25px;
+    }
+
+}
+
+@media screen and (max-width: 379px) {
+    .login-box{
+        width: 350px;
+    }
+    select{
+        width: 290px;
+    }
+    .bottom{
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .login-box{
+        width: 300px;
+    }
+    select{
+        width: 240px;
+    }
+
+}
