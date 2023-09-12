@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
 
 <style>
     .login-box{
-        height: 810px;
+        height: 820px;
     }
 </style>
 
