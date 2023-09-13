@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
 </style>
 
 
-    <form action="" method="post">
+    <form action="" method="post" id="myForm" onsubmit="return validateForm()">
     <div class="login-box">
         <div class="login-header">
             <header>REGISTER NOW</header>
@@ -96,10 +96,11 @@ if(isset($_POST['submit'])){
                 </div>
             </div>
         </div>
-        <p class="selection">Select Account type</p>
-            <select name="user_type">
-                <option value="user">user</option>
-                <option value="admin">admin</option>
+        <p class="selection">Select Account Type: *</p>
+            <select name="user_type" id="userType" required>
+                <option value="" disabled selected></option>
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
             </select>
         <div class="input-box">
             <input type="submit" name="submit" class="input-submit" value="Register Now">
@@ -116,6 +117,20 @@ if(isset($_POST['submit'])){
     </div>
     </form>
 
+
+    <script>
+        function validateForm() {
+            var userType = document.getElementById("userType").value;
+  
+            if (userType === "") {
+                alert("Please select a user type.");
+                return false; // Prevent form submission
+            }
+  
+            // If a valid option is selected, the form will submit
+            return true;
+        }
+    </script>
 
 
 
