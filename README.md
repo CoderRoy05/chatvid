@@ -15,6 +15,8 @@
 
 ## About
 Chatvid is a real-time chat application designed for seamless communication between users. It provides a user-friendly interface for instant messaging and supports user authentication and database storage.
+Note: please after signing in make sure to enable to required request offer to go and checkout(test) the main web app (chatvid) chat, features users visibility.
+if action is not taken, you wont see the required feature and purpose after signing in. make sure to enable the features
 
 ## Features
 - Real-time chat with multiple users landing page
