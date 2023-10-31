@@ -19,7 +19,7 @@ Chatvid is a real-time chat application designed for seamless communication betw
 ## Features
 - Real-time chat with multiple users landing page
 - User registration and authentication ( done .... )
-- Message history and storage (next ...)
+- Message history and storage (..💬..)
 - User-friendly and responsive design
 
 ## Technologies Used
